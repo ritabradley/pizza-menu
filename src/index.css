@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 * {
   margin: 0;
@@ -11,11 +11,11 @@ html {
 }
 
 body {
-  font-family: 'Roboto Mono', sans-serif;
-  color: #252525;
+  font-family: 'Rubik', sans-serif;
+  color: #283d3b;
   font-weight: 400;
-  background-color: #f7f2e9;
-  border-bottom: 1.6rem solid #edc84b;
+  background-color: #edddd4;
+  border-bottom: 1.6rem solid #e54b4b;
   min-height: 100vh;
   padding: 3.2rem;
   padding-bottom: 6rem;
@@ -39,8 +39,8 @@ body {
 
 .header h1 {
   /* Non-accessible color */
-  color: #edc84b;
-  /* color: #af8602; */
+  color: #e54b4b;
+  /* color: #c44536; */
 
   text-transform: uppercase;
   text-align: center;
@@ -58,7 +58,7 @@ body {
   content: '';
   height: 3px;
   width: 12rem;
-  background-color: #edc84b;
+  background-color: #c44536;
   position: absolute;
   top: calc(50% - 1px);
 }
@@ -168,14 +168,14 @@ body {
   border: none;
   font-size: 1.4rem;
   font-weight: 500;
-  background-color: #edc84b;
+  background-color: #e54b4b;
   padding: 1.4rem 3.2rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .btn:hover {
-  background-color: #e9bb24;
+  background-color: #c44536;
 }
 
 /*
