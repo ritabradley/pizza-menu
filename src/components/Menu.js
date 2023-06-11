@@ -1,3 +1,6 @@
+import Pizza from './Pizza';
+import { pizzaData } from '../data';
+
 function Menu({ children }) {
   return (
     <div className='menu'>
@@ -6,7 +9,11 @@ function Menu({ children }) {
         Authentic Italian cuisine. 6 creative dishes to choose from. All from our stone oven, all organic, all
         delicious.
       </p>
-      <ul className='pizzas'>{children}</ul>
+      <ul className='pizzas'>
+        {pizzaData.map((pizza) => (
+          <Pizza pizzaData={pizza} key={pizza.name} />
+        ))}
+      </ul>
     </div>
   );
 }
