@@ -1,7 +1,7 @@
 import Pizza from './Pizza';
 import { pizzaData } from '../data';
 
-function Menu({ children }) {
+function Menu() {
   return (
     <div className='menu'>
       <h2>Our Menu</h2>
