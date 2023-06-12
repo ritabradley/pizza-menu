@@ -5,7 +5,7 @@ function Pizza({ pizzaData }) {
       <div>
         <h3>{pizzaData.name}</h3>
         <p>{pizzaData.ingredients}</p>
-        <span>{pizzaData.price}</span>
+        <span>SOLD OUT</span>
       </div>
     </li>
   ) : (
